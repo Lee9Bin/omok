@@ -1,4 +1,4 @@
-package com.gyub.omok.domain;
+package com.gyub.omok.room;
 import java.util.Arrays;
 
 public class Board {

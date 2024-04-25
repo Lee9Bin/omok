@@ -1,11 +1,13 @@
-package com.gyub.omok.domain;
+package com.gyub.omok.domain.room;
 
+import com.gyub.omok.domain.room.Room;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.io.IOException;
 import java.net.URLEncoder;
@@ -13,10 +15,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-// 방 생성 및 목록 관리 서블릿 만들기 - 클라이언트로부터 방 생성 요청 수신, 새로운 방 만들어 방 목록에 추가
-@WebServlet("/createRoom")
+@Controller
+@RequestMapping("rooms")
 public class CreateRoomServlet extends HttpServlet {
     List<Room> roomList = new ArrayList<Room>();
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

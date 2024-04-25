@@ -1,4 +1,4 @@
-package com.gyub.omok.domain;
+package com.gyub.omok.domain.room;
 
 
 import jakarta.websocket.Session;

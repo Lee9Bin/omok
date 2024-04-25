@@ -82,11 +82,11 @@
 <%--/room-create--%>
 <form id="roomCreateForm" action="/createRoom" method="POST">
     <div class="main">
-        <img src="../../img/orange-1618917_1280.png" width="80px">
-        <img src="../../img/orange-1618917_1280.png" width="80px">
-        <img src="../../img/orange-1618917_1280.png" width="80px">
-        <img src="../../img/orange-1618917_1280.png" width="80px">
-        <img src="../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
 
         <fieldset class="loginLine">
             <p>모두의 오목</p>

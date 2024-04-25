@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.gyub.omok.domain.Room" %>
+<%@ page import="com.gyub.omok.room.Room" %>
 
 
 <html>
@@ -155,7 +155,7 @@
     <div class="room">
       <fieldset id="roomList">
         <a
-                href="OmokAndChat.jsp?roomName=${room.name}&chatId=${userNickname}">
+                href="../OmokAndChat.jsp?roomName=${room.name}&chatId=${userNickname}">
           <p id="rmname">방 이름: ${room.name}</p>
           <p id="rmname">인원 제한: ${room.capacity}</p>
         </a>

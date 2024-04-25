@@ -1,4 +1,4 @@
-package com.gyub.omok.controller;
+package com.gyub.omok;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

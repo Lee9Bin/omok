@@ -1,5 +1,5 @@
 package com.gyub.omok.websocket;
-import com.gyub.omok.domain.Board;
+import com.gyub.omok.board.Board;
 import jakarta.websocket.OnClose;
 import jakarta.websocket.OnMessage;
 import jakarta.websocket.OnOpen;

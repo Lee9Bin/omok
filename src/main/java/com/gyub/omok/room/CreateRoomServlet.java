@@ -1,6 +1,5 @@
-package com.gyub.omok.domain.room;
+package com.gyub.omok.room;
 
-import com.gyub.omok.domain.room.Room;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: kky
+  Date: 2023/11/07
+  Time: 2:03 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -60,7 +68,7 @@
             font-weight: 300;
             border: 0px solid black;
             border-radius: 100px;
-            /*background-image:url(../img/orangeColor.jpeg);*/
+            background-image:url(webapp/img/monarch-2873979_1280.png);
             color:white;
             font-family: 'East Sea Dokdo', sans-serif;
         }
@@ -71,6 +79,31 @@
     </style>
 </head>
 <body>
+
+<form action="/createRoom" method="POST">
+    <div class="main">
+
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <img src="../../../img/orange-1618917_1280.png" width="80px">
+        <fieldset class="loginLine">
+            <p>모두의 오목</p>
+            <p>사용할 닉네임</p>
+<%--            <p>--%>
+<%--            <label for="chatId">사용자 닉네임:</label>--%>
+<%--            </p>--%>
+            <input type="text" id="chatId" name="userNickname" placeholder="ID를 입력하세요" required><br>
+            <br>
+            <br>
+<%--            <input type="submit" id="playbtn" value="게임시작" onclick="gameStart();">--%>
+            <button type="submit" id="playbtn">게임 들어가기</button>
+        </fieldset>
+        <br>
+    </div>
+
+</form>
 
 </body>
 </html>
